@@ -1,5 +1,6 @@
+version: "3.5"
 services:
-    HelloWorld.py:
-       build docker-HelloWorld.py
-    HelloWorld.java:
-       build HelloWorld.java
+  python:
+    build: HelloWorld.py
+  java:
+    build: HelloWorld.java
